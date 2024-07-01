@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+} 
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-decoration: none;
+    color: black;
+    height: 60px;
+}
+
+header h1 {
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.loginWidget {
+    position: absolute;
+    top: 15px;
+    right: 55px;
+}
+
+.offcanvas-nav {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 320px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    padding: 10px;
+}
+
+.offcanvas-nav.open {
+    right: 0;
+}
+
+.toggle-button img {
+    width: 26px;
+}
+
+.toggle-button {
+    border: none;
+    background-color: white;
+}
+
+.close-button img {
+    width: 12px;
+}
+
+.close-button {
+    background-color: white;
+    border: none;
+    top: 2px;
+    position: absolute;
+}
+
+.btnLogOut {
+    background-color: black;
+    color: white;
+    border:none;
+    text-transform: uppercase;
+    padding: 5px;
+    width: 92%;
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+}
+
+.userInfo {
+    padding-top: 20px;
+}
